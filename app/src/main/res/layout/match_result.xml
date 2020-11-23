@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout style="@style/root_layout"
+        xmlns:android="“http://schemas.android.com/apk/res/android">
+
+        <ImageView android:id="@+id/result_gif" style="@style/gif"/>
+
+        <LinierLayout style="@style/team_layout">
+            <TextView android:id="@+id/home_team" style="@style/name"/>
+            <TextView android:id="@+id/home_goals" style="@style/goals"/>
+        </LinierLayout>
+
+        <LinierLayout style="@style/team_layout">
+            <TextView android:id="@+id/away_team" style="@style/name"/>
+            <TextView android:id="@+id/away_goals" style="@style/goals"/>
+        </LinierLayout>
+    </LinearLayout>
+</layout>
